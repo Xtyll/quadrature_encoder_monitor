@@ -1,0 +1,9 @@
+verilog work /opt/Xilinx/Vivado/2020.2/data/verilog/src/glbl.v
+
+# rtl part
+sv work ./../common_lib/rtl/IAXILite.sv
+sv work ./../common_lib/rtl/IAXIStream.sv
+sv work ./rtl/encoder_monitor.sv
+
+# testbench part
+sv work ./tb/top_tb.sv
